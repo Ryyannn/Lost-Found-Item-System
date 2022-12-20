@@ -1,0 +1,153 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    height: 12vh;
+}
+
+.selected {
+    letter-spacing: 0.5vw;
+    padding: 50px;
+    font-family: Candara;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    color: gray;
+}
+
+.notSelected{
+    letter-spacing: 0.5vw;
+    padding: 50px;
+    font-size: 20px;
+    font-family: Candara;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.dropdown {
+    float: right;
+    padding-left: 220px;
+    overflow: hidden;
+    /* position: relative; */
+}
+
+.dropbtn{
+    /* float: right; */
+    font-family: Candara;
+    background-color: inherit;
+    border: none;
+    outline: 3px;
+    font-size: 15px;
+    color: white;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+  
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    color: white;
+    content: "\25BC";
+  }
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    background-size: contain;
+}
+
+.profileContainer{
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: 0 auto;
+    gap: 15px;
+    padding: 10px;
+}
+
+.profileGroup{
+    max-width: 1000px;
+    min-width: 500px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: rgb(255, 255, 255);
+    border: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(0, 0, 0);
+    box-shadow: 2px 2px 5px rgb(0,0,0,0.2);
+}
+
+.divison{
+    border-style: none;
+    border-bottom: solid 0.5px;
+    text-align: center;
+    padding: 20px;
+    width: 300px;
+}
+
+.editProfile{
+    border-style: none;
+    border-radius: 5px;
+    background-color: #fdb7ff;
+    padding: 8px 130px;
+    font-family: Candara;
+    text-transform: uppercase;
+    letter-spacing: .8px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    box-shadow: 2px 2px 5px rgb(0,0,0,0.2);
+    cursor: pointer;
+}
+
+
+

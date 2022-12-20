@@ -1,0 +1,122 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 13vh;
+}
+
+h1 {
+    letter-spacing: 1.5vw;
+    font-family: Candara;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 880px;
+    width: 100%;
+    background-color: rgb(255, 221, 254);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+label {
+    letter-spacing: 3px;
+    font-size: 1rem;
+}
+
+
+.form_class {
+    width: 700px;
+    padding: 40px;
+    border-radius: 8px;
+    background-color: white;
+    font-family: Candara;
+    box-shadow: 5px 5px 10px rgb(0,0,0,0.3);
+}
+
+.form_div {
+    text-transform: uppercase;
+}
+
+.form_div > table {
+    width: 700px;
+}
+
+
+.field_class {
+    width: 400px;
+    border-radius: 6px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px 0px;
+    text-indent: 6px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: Candara;
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+    float: right;
+}
+
+.error_class{
+    color: red; 
+    padding: 0px;
+    text-align: center;
+}
+
+.submit_class {
+    border-style: none;
+    border-radius: 5px;
+    background-color: #fdb7ff;
+    padding: 8px 180px;
+    font-family: Candara;
+    text-transform: uppercase;
+    letter-spacing: .8px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    box-shadow: 2px 2px 5px rgb(0,0,0,0.2);
+    cursor: pointer;
+    float: right;
+}
+
+footer {
+    height: 8vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: -5px -5px 10px rgb(0,0,0,0.3);
+}
+
+footer > p {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Candara;
+    letter-spacing: 3px;
+}
+
+footer > p > a {
+    text-decoration: underline;
+    color: rgb(182, 182, 182);
+    font-weight: bold;
+}
+
+
+
+
+
+
